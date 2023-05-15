@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="styles.css">
+<meta charset = "utf-8">
+<meta name="description" content="Contact us page">
+<meta name="keywords" content="Contact, Us, Form, iPhone">
+<meta name="author" content="Nam Dong, Viet Hoang">
+<script src="form-validation.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Apple</h1>
+        </header>
+        
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="stores.html">Store Locator</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+        </nav>
+
+<main>
+<h2>Contact Us</h2>
+<p>Email Address: apple.support@gmail.com</p>
+<p>Phone: +84968686868</p>
+<h2>Or fill in the form below so that  we can contact</h2>
+<form action="" method="post" id="contact-form" onsubmit="return validateForm()">
+<label for="first-name">First Name:</label>
+<input type="text" id="first-name" name="first-name" required><br>
+<label for="last-name">Last Name:</label>
+<input type="text" id="last-name" name="last-name" required><br>
+
+<label for="age">Age:</label>
+<input type="number" id="age" name="age" required><br>
+
+<label for="address">Address:</label>
+<textarea id="address" name="address" required></textarea><br>
+
+<label for="mobile-number">Mobile Number:</label>
+<input type="text" id="mobile-number" name="mobile-number" required><br>
+
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</main>
+<footer>
+<p>Copyright © 2021 Apple Inc. All rights reserved.</p>
+</footer>
+</body>
+</html>
